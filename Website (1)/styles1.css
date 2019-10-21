@@ -1,0 +1,100 @@
+head {
+	color: white;
+	text-align: center;
+	text-shadow: 3px 2px blue;
+	font-size: 100%;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-shadow: 3px 2px blue;
+  font-size: 450% ;
+}
+
+body {
+	font-family: "Lucida Console", Monaco, monospace; 
+	text-align: center;
+	background-color: lightblue;
+	border-style: solid;
+	border-color: black;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-right: 70px;
+	margin-left: 60px;
+	line-height: 1.3;
+	color: white;
+	
+}
+
+p {
+	font-size: 25px;
+}
+
+.sites {
+	font-size:15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+.gallery {
+	font-size: 15pt;
+	padding: 20px;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	display : table;
+}
+
+ul {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 40%;	
+	margin: auto;
+}
+
+#subtitle {
+	text-shadow: 3px 2px pink; 
+	font-size: 30pt;
+	font-weight: bold;
+}
+
+li {
+	float:left;
+}
+
+	
+li a {
+	display: inline-block;
+	text-align: center; 
+	text-decoration:none;
+}
+			
+a:hover {
+	font-weight: bold;
+}	
+
+img {
+	width:300px;
+	height:200px;
+}
+
+
